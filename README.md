@@ -26,6 +26,16 @@ I always prefer clear code than shabby coding where authors try to make everythi
 (Jupyter Notebooks are provided for learners to learn) 
 (Experts run app.py) :P (CPU is fine, I love hot GPU air)
 
+### Navigating through repository
+Quite simple! I have stored all the notebooks, I used both for `training` and `interference`. 
+* 'notebooks/hufload_pytorch.ipynb' -> inteference notebook
+* `notebooks/yolo5_trash.ipynb` -> training notebook
+
+##### Running Flask
+* Open `terminal`
+* Navigate to the repository
+* Inside the repo run `python app.py`
+
 ### Upcoming
 
 - [ ] Labelling TrashNet dataset for Object Detection. (Stanford Version)
@@ -34,3 +44,9 @@ I always prefer clear code than shabby coding where authors try to make everythi
 - [ ] DarkNet (haha! _)
 
 Special thanks to Roboflow for such wonderful free support! Couldn’t make the dataset without you.
+
+#### Acknowledgement
+A project developed by me under my team Alpha Tauri. Licenced under Open Source **GPL**. 
+<blockquote>
+ We believe in developing human friendly Software!
+</blockquote>
