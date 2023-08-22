@@ -1,4 +1,3 @@
-/* static/styles.css */
 body {
     font-family: 'Roboto', sans-serif;
     transition: background-color 0.5s;
@@ -13,7 +12,7 @@ body {
     color: white;
 }
 
-/* Add styling for the dark theme footer */
+
 .dark .footer {
     background-color: #000;
     color: white;
@@ -31,7 +30,7 @@ body {
     text-align: center;
 }
 
-/* Styling for the toggle switch and footer */
+
 .switch {
     position: relative;
     display: inline-block;
