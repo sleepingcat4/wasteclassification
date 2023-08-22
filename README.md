@@ -14,6 +14,9 @@ And a number of different flavours of saved versions of the model was attached w
 
 ### Dataset
 We used a modified TACO dataset. This version of the dataset was created by @manaporkun. A special thanks to him for making it open source. 
+<a href="https://universe.roboflow.com/alpha-tauri/plastic-project">
+    <img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img>
+</a>
 
 ### Performing inference
 
