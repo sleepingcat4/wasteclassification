@@ -1,0 +1,32 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Your AI Photo App</title>
+</head>
+<body>
+    <header>
+        <label class="switch">
+            <input id="theme-toggle" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <main class="center">
+        <div class="content">
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" accept=".jpg, .jpeg, .png">
+                <input type="submit" value="Upload and Predict">
+            </form>
+            <!-- Display the image and prediction here -->
+        </div>
+    </main>
+    <footer class="footer">
+        Developed by Alpha Tauri
+    </footer>
+    <div class="bubbles"></div>
+    <script src="static/script.js"></script>
+</body>
+</html>

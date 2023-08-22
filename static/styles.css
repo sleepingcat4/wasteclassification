@@ -1,0 +1,84 @@
+/* static/styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.5s;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dark {
+    background-color: #000;
+    color: white;
+}
+
+/* Add styling for the dark theme footer */
+.dark .footer {
+    background-color: #000;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+}
+
+/* Styling for the toggle switch and footer */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    transition: background-color 0.5s;
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+}
+
+.footer:hover {
+    background-color: #fff;
+}
+
+.footer p {
+    margin: 0;
+    position: relative;
+}
+
+/* Animation for bubbles */
+.bubbles {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    animation: bubbles 10s infinite;
+}
+
+@keyframes bubbles {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
